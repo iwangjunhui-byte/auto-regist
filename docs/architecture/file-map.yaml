@@ -1,0 +1,23 @@
+runtime:
+  - runtime/ExecutionPlan.java
+  - runtime/WorkflowRuntime.java
+  - runtime/ActionDispatcher.java
+  - runtime/WorkflowContext.java
+
+browser:
+  - browser/BrowserPool.java
+  - browser/BrowserManager.java
+  - browser/BrowserHolder.java
+
+plugin:
+  - plugin/PluginLoader.java
+  - plugin/PluginRegistry.java
+  - plugin/ActionHandler.java
+
+queue:
+  - queue/TaskQueue.java
+  - queue/Worker.java
+
+trace:
+  - trace/TraceCollector.java
+  - trace/ScreenshotService.java
