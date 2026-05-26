@@ -1,0 +1,25 @@
+tasks:
+  - id: TASK-101
+    module: runtime
+    depends:
+      - TASK-001
+
+  - id: TASK-102
+    module: runtime
+    depends:
+      - TASK-101
+
+  - id: TASK-103
+    module: runtime
+    depends:
+      - TASK-101
+
+  - id: TASK-201
+    module: browser
+    depends:
+      - TASK-103
+
+  - id: TASK-301
+    module: plugin
+    depends:
+      - TASK-102
